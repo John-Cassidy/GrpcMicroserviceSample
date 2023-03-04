@@ -1,5 +1,4 @@
 using StatusMicroservice;
-using StatusMicroservice.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

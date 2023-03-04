@@ -1,7 +1,7 @@
 ﻿using Grpc.Core;
 using Status;
 
-namespace StatusMicroservice.Services {
+namespace StatusMicroservice {
     public class StatusManagerService : StatusManager.StatusManagerBase {
         private readonly IStateStore stateStore;
 

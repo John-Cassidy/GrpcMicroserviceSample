@@ -15,7 +15,7 @@ namespace ApiGateway {
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllers();
 
-            //services.AddSingleton<IGrpcStatusClient>(p => new GrpcStatusClient(Configuration["ServerUrl"]));
+            services.AddSingleton<IGrpcStatusClient>(p => new GrpcStatusClient(Configuration["ServerUrl"]));
 
             //// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();

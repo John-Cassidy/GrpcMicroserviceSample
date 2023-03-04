@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GrpcDependencies\GrpcDependencies.csproj" />
+    <ProjectReference Include="..\GrpcDependencies\GrpcDependencies.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>    
   </ItemGroup>
 
 </Project>
